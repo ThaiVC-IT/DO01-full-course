@@ -1,8 +1,14 @@
 #!/bin/bash
 
+# turn on debug mode in shell script
+
 #set -x
 
-# Check file if it is regular file
+# Turn off debug mode in shell script
+# set +x
+
+
+# Check file if it is regular file and writeable 
 
 echo "Input name of file you wanna check: "
 read FILE

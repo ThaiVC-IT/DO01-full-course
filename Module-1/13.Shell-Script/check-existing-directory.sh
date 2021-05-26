@@ -2,7 +2,8 @@
 
 set -x
 
-# Check file if it is regular file
+# Check file if it is directory
+
 
 echo "This shell scipt using for check exsiting directory"
 FOLDER=$(pwd)

@@ -2,7 +2,7 @@
 
 #set -x
 
-# Check file if it is regular file
+# Check file if it is syboliclink file
 
 echo "Input name of file you wanna check: "
 read FILE

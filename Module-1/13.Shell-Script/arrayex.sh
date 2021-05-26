@@ -2,6 +2,7 @@
 
 
 # example array
+# List all file with .sh extention
 
 ARRAY=($(ls *.sh))
 COUNT=0

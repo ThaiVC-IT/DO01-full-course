@@ -2,7 +2,7 @@
 
 #set -x
 
-# Check file if it is regular file
+# Check file if it is regular file and executeable
 
 echo "Input name of file you wanna check: "
 read FILE
