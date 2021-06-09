@@ -17,3 +17,11 @@ This project contains scripts and codes for Class.
     - 14.Shell-script-advance-example
 
 ## Module-2 - Source Version Control 
+    - 1. Git-commands-basic
+    - 2. Git-commands-tags
+    - 3. Git-commands-branch
+    - 4. Git-commands-log
+    - 5. Git-commands-Clone
+    - 6. Git-commands-rebase-diff
+    - 7. Git-commands-tracking-remote-repo
+    - 8. GitLab-InstallationManual
