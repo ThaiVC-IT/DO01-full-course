@@ -44,6 +44,7 @@ Write a shellscript require input arguments from user [This case argument was di
 -   Function countfile
 
 <br/><br/>
+----------------------------------------- What do you think after finish AS01 ? Wanna more ? ----------------------------------------
 <br/><br/>
 
 ### AS 02
@@ -66,6 +67,7 @@ After find out if file have any issue. You program should have feature to fix th
 - Sed command should be use to search and replace.
 
 <br/><br/>
+----------------------------------------- Wanna give up huh ? ---------------- No No No ----------- Let's finish it-----------------
 <br/><br/>
 
 ### AS 03
@@ -123,3 +125,4 @@ You choose shell script to achive this purpose. In you script you think you shou
     done
 
     ```
+--------------------------------------------- You are the champion -----------------------------------------------------
