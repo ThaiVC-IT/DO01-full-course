@@ -87,7 +87,7 @@ apt-cache policy kubelet | head -n 20
 
 #Install the required packages, if needed we can request a specific version. 
 #Pick the same version you used on the Control Plane Node in 0-PackageInstallation-containerd.sh
-VERSION=1.21.3-00
+VERSION=1.21.5-00
 sudo apt-get install -y kubelet=$VERSION kubeadm=$VERSION kubectl=$VERSION
 sudo apt-mark hold kubelet kubeadm kubectl containerd
 
@@ -137,6 +137,9 @@ ssh aen@c1-node1
 sudo kubeadm join 172.16.94.10:6443 \
   --token hirro1.7asf3h1rzax11800     \
   --discovery-token-ca-cert-hash sha256:1bcf08d4364bd2928986388ca5b56155d61769bf6f66b652caea46f74a9a9219
+
+
+sudo kubeadm join 172.16.94.10:6443 --token me8pf0.93ftt9tm4u4olkup --discovery-token-ca-cert-hash sha256:7f052ff4e6f1783fec35a09250701d9bc87100acb682230ac987ece661dd2afe
 
 
 

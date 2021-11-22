@@ -30,7 +30,7 @@ kubectl get pods --namespace kube-system -o wide
 
 #Now let's get a list of everything that's running in all namespaces
 #In addition to pods, we see services, daemonsets, deployments and replicasets
-kubectl get all --all-namespaces | more
+
 
 
 #Asking kubernetes for the resources it knows about
